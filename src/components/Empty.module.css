@@ -1,0 +1,36 @@
+.mytask{
+    width: 736px;
+    height:287px;  
+}
+
+.mytask .info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mytask .info .created{
+    color: var(--blue);
+}
+
+.mytask .info .done{
+    color: var(--purple);
+}
+
+.mytask .empty{
+    width: 736px;
+    height:287px; 
+    border-top: 1px solid var(--gray-300);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mytask .empty div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--gray-300);
+}

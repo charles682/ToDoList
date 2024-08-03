@@ -1,0 +1,62 @@
+
+
+.wrapper{
+    max-width:70rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--gray-400);
+
+}
+
+.commentForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .commentForm input {
+      width: 80%;
+      background: var(--gray-500);
+      border: 0;
+      resize: none;
+      width:638px;
+      height: 54px;
+      border-radius: 0.25rem;
+      color: var(--gray-100);
+      line-height: 1.4;
+      margin-top: 1rem;
+      padding-top: 15px; /* Ajuste o padding conforme necessário */ 
+      padding-left: 10px; /* Faz o placeholder centralizar horizontalmente */
+  }
+  
+    .commentForm button[type="submit"] {
+      padding: 1rem 1.5rem;
+      margin-top: 1rem;
+      border-radius: 8px;
+      border: 0;
+      background: var(--purple);
+      color: var(--white);
+      font-weight: bold;
+      cursor: pointer;
+      color: var(--gray-100);
+      display: flex;
+      gap: 8px;
+      transition: background-color 0.1s;
+    }
+  
+    .commentForm button[type="submit"]:not(:disabled):hover {
+      background: var(--purple-dark);
+  }
+  
+@media (max-width: 768px) {
+    html {
+    font-size: 87.5%;
+    }
+}
