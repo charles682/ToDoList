@@ -1,0 +1,13 @@
+.container{
+    width: 736px;
+    height: 72px;
+    border-radius: 8px;
+    background:var(--gray-500);
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    color: #eee;
+    
+}

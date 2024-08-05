@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: var(--gray-400);
+   
 
 }
 
@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: -5rem;
+    margin-top: -2.5rem;
     margin-bottom: 2rem;
   }
   
@@ -54,6 +54,21 @@
     .commentForm button[type="submit"]:not(:disabled):hover {
       background: var(--purple-dark);
   }
+
+  .info{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+ .info .created{
+    color: var(--blue);
+}
+
+.info .done{
+    color: var(--purple);
+}
+
   
 @media (max-width: 768px) {
     html {

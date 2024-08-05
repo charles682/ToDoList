@@ -3,18 +3,6 @@
     height:287px;  
 }
 
-.mytask .info{
-    display: flex;
-    justify-content: space-between;
-}
-
-.mytask .info .created{
-    color: var(--blue);
-}
-
-.mytask .info .done{
-    color: var(--purple);
-}
 
 .mytask .empty{
     width: 736px;

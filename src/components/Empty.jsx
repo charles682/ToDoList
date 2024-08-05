@@ -5,14 +5,6 @@ import clipboard from '../assets/Clipboard.svg'
 export function Empty(){
     return(
         <div className={styles.mytask}>
-            <div className={styles.info}>
-                <p className={styles.created}>
-                    Tafefas criadas 0
-                </p>
-                <p className={styles.done}>
-                    Concluidas 1
-                </p>
-            </div>   
             <div className={styles.empty}> 
                 <div>
                     <img src={clipboard} alt="" />
